@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+* {
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background-image: url(links-page-background.jpg);
+    background-size:  575px 2050px;
+    opacity: 0.9;
+    z-index: -1;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    overflow: auto; /* Добавляем полосы прокрутки */
+    height: 2050px; 
+    max-width: 575px;
+    margin: 0 auto; 
+}
+#header {
+    width: 555px;
+    height: 40px;
+    background: #50cdff url(logo.png) no-repeat 1% 50%;
+    padding-top: 10px;
+    background-size: 70px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14pt;
+    }
+
+#h1  {
+    color: black;
+    background-color: #50cdff;
+    display: block;
+    text-align: center;
+    width: 575px;
+    font-size: 16pt;
+}
+#list {
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 220px;
+    position:absolute;
+    right:430px;
+    top:230px;
+    border-radius: 10px;
+    font-size: 14pt;
+}
+
+
+#box1, #box2, #box3 {
+    width:150px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14pt;
+}
+
+#box1{
+    background-color: #ff4612;
+    position:absolute;
+    left: 430px;
+    top: 230px;
+}
+
+#box2{
+    background-color: #f5fe01;
+    position:absolute;
+    left:430px;
+    top: 400px;
+}
+
+#box3{
+    background-color: #11d51b;
+    position:absolute;
+    left: 430px;
+    top: 570px;
+}
+#h2 {
+  color: black;
+    background-color: #50cdff;
+    display: block;
+    text-align: center;
+    width: 575px;
+    font-size: 18pt;
+    position: absolute;
+    top:850px;
+}
+#infant {
+    position:absolute;
+    right:430px;
+    top:970px;
+}
+#awareness-for-infants {
+    color: black;
+    display: block; 
+    position:absolute;
+    left:430px;
+    top:1020px;
+    font-size: 16pt;
+}
+#preschooler {
+    position:absolute;
+    right:430px;
+    top:1150px; 
+}
+#swim-for-preschoolers {
+    color: black;
+    display: block; 
+    position:absolute;
+    left:120px;
+    top:380px;
+    font-size: 16pt;
+}
+#school-age-child {
+    position:absolute;
+    right:430px;
+    top:1330px;
+}
+#swim-for-school-age-children {
+    color: black;
+    display: block; 
+    position:absolute;
+    right:100px;
+    top:120px;
+    font-size: 16pt;
+}
+#teenager {
+     position:absolute;
+    right:430px;
+    top:230px;
+}
+#sweem-for-teenagers {
+    color: black;
+    display: block; 
+    position:absolute;
+    right:140px;
+    top:380px;
+    font-size: 16pt;
+}
+#adult {
+    position:absolute;
+    right:430px;
+    top:230px; 
+    
+}
+#private-classes {
+   color: black;
+    display: block; 
+    position:absolute;
+    right: 600px;
+    bottom: 210px;
+    font-size: 16pt;
+}
+#logo {
+   position:absolute;
+    right:560px;
+    top:140px;  
+    opacity: 0.8;
+}
+a {
+    color: black;
+}
+a[href^="http"]{
+    color: blue;
+}
+a:visited {
+    color: brown;
+}
+
